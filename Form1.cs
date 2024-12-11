@@ -24,7 +24,7 @@ namespace GestiosTareasPendientes
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if(lstTareas.SelectedItem !=null)
+            if (lstTareas.SelectedItem != null)
             {
                 lstTareas.Items.Remove(lstTareas.SelectedItem);
             }
@@ -32,6 +32,11 @@ namespace GestiosTareasPendientes
             {
                 MessageBox.Show("Selecciona una tarea para eliminar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
